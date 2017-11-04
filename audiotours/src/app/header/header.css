@@ -1,0 +1,51 @@
+.header {
+  background: url('../../images/header-bg.jpg') no-repeat center center; /*fixed;*/
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 55%;
+  grid-template-rows: 
+    25%
+    40%
+    25%;
+  grid-template-areas:
+  ".       ."
+  "caption ."
+  ".       .";
+  align-content: space-around;
+  justify-content: space-around;
+}
+@media screen and (max-width: 830px) {
+  .header {
+    grid-template-columns: 55% 40%;
+  }
+}
+@media screen and (max-width: 535px) {
+  .header {
+    grid-template-columns: 75% 20%
+  }
+}
+.header__text {
+  font-family: 'Teko', sans-serif;
+  font-size: 7vmax;
+  text-align: left;
+  color: white;
+  grid-area: caption;
+}
+
+.header__image__caption {
+  position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+  padding: 5px;
+  margin: 0;
+  color: white;
+}
+  .header__image__caption > a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .header__image__caption > a:hover {
+    color: #6F8855;
+  }
