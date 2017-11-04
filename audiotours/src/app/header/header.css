@@ -11,7 +11,7 @@
   grid-template-areas:
   ".       ."
   "caption ."
-  "button  .";
+  ".       .";
   align-content: space-around;
   justify-content: space-around;
 }
@@ -33,29 +33,6 @@
   color: white;
   grid-area: caption;
 }
-
-.header__button {
-  grid-area: button;
-  text-align: center;
-}
-.header__button__text {
-  color: white;
-  font-size: 2vw;
-  background-color: #6F8855;
-  border: 3px solid #6F8855;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 4px 5px 5px #132203;
-}
-.header__button__text:hover {
-  color: #6F8855;
-  background-color: white;
-  border-color: white;
-  transition: all .5s ease;
-  box-shadow: 2px 2px 2px #132203;
-  transition: box-shadow 0s ease;
-}
-
 .header__image__caption {
   position: absolute;
     bottom: 0px;
