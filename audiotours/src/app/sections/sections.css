@@ -1,0 +1,22 @@
+.section_container {
+  height: 35vh;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 70% 30%;
+  justify-content: center;
+}
+.section_container__column {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.user {
+  background-color: red;
+}
+.create {
+  background-color: blue;
+}
+.section_container__title {
+  color: white;
+  font-size: 5em;
+}
