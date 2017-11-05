@@ -12,6 +12,28 @@
 }
 .user {
   background-color: red;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+}
+.section_container__icons {
+  border-left: 3px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section_container__icons > div {
+  margin: 10px;
+  height: 75px;
+  width: 75px;
+  background-color: black
+}
+.section_container__text {
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 .create {
   background-color: blue;
@@ -19,4 +41,7 @@
 .section_container__title {
   color: white;
   font-size: 5em;
+}
+.section_container__2 {
+  height: 60vh;
 }
