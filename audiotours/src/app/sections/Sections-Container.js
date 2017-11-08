@@ -19,8 +19,22 @@ const SectionsContainer = () => {
           <span className="section_container__title">Create</span>
         </div>
       </div>
+
       <div className="section_container__2">
+        <div className="section_container__2__row">
+          <span>See The Backroads</span>
+          <div className="section_image"></div>
+        </div>
+        <div className="section_container__2__row">
+          <span>History, Nature, Points of Interest</span>
+          <div className="section_image"></div>
+        </div>
+        <div className="section_container__2__row">
+          <span>See The Town</span>
+        <div className="section_image"></div>
+        </div>
       </div>
+
     </div>
   );
 };

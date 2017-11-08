@@ -5,6 +5,7 @@
   height: 30px;
   background-color: white;
   border-bottom: 5px solid #6F8855;
+  z-index: 1;
 
   display: flex;
   justify-content: center;
