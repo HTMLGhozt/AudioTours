@@ -1,0 +1,63 @@
+.selection_wrapper {
+  height: 40vh;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 70% 30%;
+}
+.selection_column__background {
+  background: url('../../../images/Listen.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+
+.section_container {
+  height: 40vh;
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 70% 30%;
+  justify-content: center;
+}
+.section_container__column {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 50% 50%;
+}
+.user, .create {
+  outline: 3px solid black;
+  outline-offset: -3px;
+}
+.user:hover, .create:hover {
+  z-index: 2;
+  transform: scale(1.05);
+  filter: blur(3px);
+  overflow: hidden;
+  transition: all 3s ease;
+}
+/* .user/.create scale on hover background image follow mouse */
+.section_container__icons {
+  border-left: 3px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section_container__icons > div {
+  margin: 10px;
+  height: 75px;
+  width: 75px;
+  background-color: black
+}
+.section_container__text {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.create {
+  background: url('../../../images/create.jpg') no-repeat center center;
+  background-size: cover;
+}
+.section_container__title {
+  color: white;
+  font-size: 5em;
+}

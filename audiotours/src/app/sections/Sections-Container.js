@@ -1,24 +1,11 @@
 import React from 'react';
+import MobileSection from './Section_Components/MobileSelection.js'
 import './sections.css';
 
 const SectionsContainer = () => {
   return (
     <div className="sections_wrapper">
-
-      <div className="section_container">
-        <div className="section_container__column user">
-          <div className="section_container__text">
-            <span className="section_container__title">Listen</span>
-          </div>
-          <div className="section_container__icons">
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-        <div className="section_container__column create">
-          <span className="section_container__title">Create</span>
-        </div>
-      </div>
+      <MobileSection />
 
       <div className="section_container__2">
         <div className="section_container__2__row">
