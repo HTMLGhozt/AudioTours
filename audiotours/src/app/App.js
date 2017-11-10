@@ -1,21 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Route, Switch, } from 'react-router-dom';
 
-import MainNav from './navigation/nav.js';
-import Header from './header';
-import SectionsContainer from './sections/Sections-Container.js';
-import Footer from './footer';
+import { MainNav, Footer, } from './components'
+import { Home, NotFound, } from './Pages';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <MainNav />
-        <Header />
-        <SectionsContainer />
-        <Footer />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <MainNav />
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route component={NotFound} />
+    </Switch>
+    <Footer />
+  </div>
+);
 
 export default App;

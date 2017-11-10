@@ -5,7 +5,7 @@
   height: 30px;
   background-color: white;
   border-bottom: 5px solid #6F8855;
-  z-index: 1;
+  z-index: 999;
 
   display: flex;
   justify-content: center;
@@ -18,6 +18,9 @@
 }
 .main_nav__link:hover {
   color: #6F8855;
+}
+.main_nav__link--active {
+  background-color: #e9e9e9;
 }
 .main_nav__login_box {
   position: absolute;

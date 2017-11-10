@@ -1,7 +1,7 @@
 .header {
-  background: url('../../images/header-bg.jpg') no-repeat center center; /*fixed;*/
+  background: url('./header-bg-compressor.jpg') no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 30px);
   display: grid;
   grid-template-columns: 40% 55%;
   grid-template-rows: 
@@ -14,16 +14,6 @@
   ".       .";
   align-content: space-around;
   justify-content: space-around;
-}
-@media screen and (max-width: 830px) {
-  .header {
-    grid-template-columns: 55% 40%;
-  }
-}
-@media screen and (max-width: 535px) {
-  .header {
-    grid-template-columns: 75% 20%
-  }
 }
 .header__text {
   font-family: 'Teko', sans-serif;
