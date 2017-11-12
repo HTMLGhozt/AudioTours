@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/header/header.js';
 import CardDeck from './components/card_deck/card_deck.js';
 import ShowcaseContainer from './components/showcase_content/showcase_container.js';
+import TestimonialContainer from './components/testimonials/testimonial_container.js';
 
 const Home = () => {
   /* 
@@ -15,6 +16,7 @@ const Home = () => {
       <Header />
       <CardDeck />
       <ShowcaseContainer />
+      <TestimonialContainer />
     </div>
   );
 };

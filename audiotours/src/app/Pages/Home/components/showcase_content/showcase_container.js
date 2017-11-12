@@ -3,6 +3,8 @@ import React from 'react';
 import './showcase.css';
 
 const ShowcaseContainer = () => {
+  /* Is this bloating my content? Is it better to plan for the future 
+  with things that you expect to have more components? */
   return (
     <div className="showcase_contianer">
       <div className="showcase_contianer__row">
