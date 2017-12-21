@@ -10,8 +10,8 @@ const App = () => (
     <LoginModal />
     <RegisterModal />
     <Switch>
-      <Route path="/" component={Home} exact />
-      <Route component={NotFound} />
+      <Route path="/" component={ Home } exact />
+      <Route component={ NotFound } />
     </Switch>
     <Footer />
   </div>

@@ -11,7 +11,7 @@ const MainNav = () => {
   const showRegisterModal = () => {
     const register = document.getElementById('register_modal');
     register.style.display = 'flex';
-    console.log('is clicked')
+    console.log('is clicked');
   };
   return(
     <nav className="main_nav">
